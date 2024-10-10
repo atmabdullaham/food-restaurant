@@ -12,6 +12,7 @@
 }
 #hero>.hero-content{
  width: 818.4px;
+
  
 }
 .sub-title{
@@ -129,11 +130,69 @@ color: rgb(16, 16, 16);
 .card{
  width: 337.6px;
  height: 417.6px;
+ display: flex;
+ flex-direction: column;
+ justify-content: start;
+ align-items: center;
 }
 
 .card-img{
  width: 339.2px;
  height: 226.4px;
- background-image: url("/assets/pizza.png");
+ margin-bottom: 25.6px;
+}
+.card1-cover{
+background-image: url("/assets/pizza.png");
+background-size: contain;
+}
+.card2-cover{
+background-image: url("/assets/biriyani.png");
+background-size: contain;
+}
+.card3-cover{
+ background-image: url("/assets/burger.png");
  background-size: contain;
 }
+
+.dish-name{
+ border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  width: 148.6px;
+  height: 44.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 19.2px;
+}
+
+.dish-name span{
+ color: rgb(16, 16, 16);
+  font-family: "Work Sans";
+  font-size: 19.2px;
+  font-weight: 600;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.offer{
+ color: rgb(16, 16, 16);
+  font-family: "Work Sans";
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 37.6px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 19.2px;
+}
+.dish-description{
+ color: rgb(16, 16, 16);
+  font-family: "Work Sans";
+  font-size: 14.4px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
