@@ -23,6 +23,7 @@
   letter-spacing: 0%;
   text-align: center;
   opacity: 0.8;
+  margin-bottom: 12.8px;
 }
 
 .title{
@@ -33,9 +34,12 @@
   line-height: 64px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 19.2px;
   
 }
-
+.btn-div{
+ text-align: center;
+}
 
 
 .description{
@@ -47,4 +51,18 @@
   letter-spacing: 0%;
   text-align: center;
   opacity: 0.7;
+  margin-bottom: 42.4px;
+}
+.btn{
+ padding: 16.8px 25.6px 16.8px 25.6px;
+ color: rgb(255, 255, 255);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.4px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  border: none;
 }
