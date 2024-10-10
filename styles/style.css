@@ -66,3 +66,74 @@
   background: rgb(82, 195, 3);
   border: none;
 }
+
+#card-box{
+ width: 1056px;
+ margin: 60px auto;
+}
+
+#card-box .title{
+ color: rgb(16, 16, 16);
+  font-family: "Work Sans";
+  font-size: 38.4px;
+  font-weight: 700;
+  line-height: 51.2px;
+  letter-spacing: 0%;
+  text-align: center;
+  /* Your Favorite Brands Food Are Now On Sale */
+   /* position: static; */
+   width: 552px;
+   height: 102.4px;
+   
+   /* Auto layout */
+   /* display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 12.8;
+   padding: 0px; */
+  
+ 
+   /* Inside Auto Layout */
+   /* flex: none;
+   order: 1;
+   flex-grow: 0;
+   margin: 12.8px 0px; */
+}
+
+#card-box .sub-title{
+color: rgb(16, 16, 16);
+ font-family: "Work Sans";
+ font-size: 19.2px;
+ font-weight: 500;
+ line-height: 22.4px;
+ letter-spacing: 0%;
+ text-align: center;
+ opacity: 0.6;
+}
+
+#card-box .title-div{
+ 
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: 48.4px;
+}
+.card-container{
+ margin-bottom: 51.2px;
+ display: flex;
+ gap: 19.2px;
+}
+
+.card{
+ width: 337.6px;
+ height: 417.6px;
+}
+
+.card-img{
+ width: 339.2px;
+ height: 226.4px;
+ background-image: url("/assets/pizza.png");
+ background-size: contain;
+}
